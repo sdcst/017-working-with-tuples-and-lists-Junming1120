@@ -28,8 +28,8 @@ fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry
 
 x = str(input("Please enter a word> "))
 if x in fruit:
-    z = fruit.count(x)
-    for i in range(z):
+    y = fruit.count(x)
+    for i in range(y):
         y = fruit.index(x)
         fruit.pop(y)
 else:
